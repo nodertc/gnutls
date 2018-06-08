@@ -1,0 +1,24 @@
+1411c1411
+< 	$(CC_FOR_BUILD) `test -f 'gen-fac$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-fac$(U_FOR_BUILD).c -o gen-fac$(EXEEXT_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-fac$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-fac$(U_FOR_BUILD).c -o gen-fac$(EXEEXT_FOR_BUILD)
+1420c1420
+< 	$(CC_FOR_BUILD) `test -f 'gen-fib$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-fib$(U_FOR_BUILD).c -o gen-fib$(EXEEXT_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-fib$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-fib$(U_FOR_BUILD).c -o gen-fib$(EXEEXT_FOR_BUILD)
+1429c1429
+< 	$(CC_FOR_BUILD) `test -f 'gen-bases$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-bases$(U_FOR_BUILD).c -o gen-bases$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-bases$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-bases$(U_FOR_BUILD).c -o gen-bases$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)
+1435c1435
+< 	$(CC_FOR_BUILD) `test -f 'gen-trialdivtab$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-trialdivtab$(U_FOR_BUILD).c -o gen-trialdivtab$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-trialdivtab$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-trialdivtab$(U_FOR_BUILD).c -o gen-trialdivtab$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)
+1441c1441
+< 	$(CC_FOR_BUILD) `test -f 'gen-jacobitab$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-jacobitab$(U_FOR_BUILD).c -o gen-jacobitab$(EXEEXT_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-jacobitab$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-jacobitab$(U_FOR_BUILD).c -o gen-jacobitab$(EXEEXT_FOR_BUILD)
+1447c1447
+< 	$(CC_FOR_BUILD) `test -f 'gen-psqr$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-psqr$(U_FOR_BUILD).c -o gen-psqr$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f 'gen-psqr$(U_FOR_BUILD).c' || echo '$(srcdir)/'`gen-psqr$(U_FOR_BUILD).c -o gen-psqr$(EXEEXT_FOR_BUILD) $(LIBM_FOR_BUILD)

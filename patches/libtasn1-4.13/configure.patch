@@ -1,0 +1,4 @@
+15952c15952
+<   gl_cv_func_ftello_works=no
+---
+>   gl_cv_func_ftello_works=yes

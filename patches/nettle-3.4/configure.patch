@@ -1,0 +1,7 @@
+7775,7780d7774
+<   # Using -ggdb3 makes (some versions of) Redhat's gcc-2.96 dump core
+<   if $CC --version | grep '^2\.96$' 1>/dev/null 2>&1; then
+<     true
+<   else
+<     CFLAGS="$CFLAGS -ggdb3"
+<   fi

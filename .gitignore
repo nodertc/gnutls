@@ -1,0 +1,6 @@
+.vscode
+build
+/nettle-3.4
+/libtasn1-4.13
+/gmp-6.1.2
+/gnutls-3.5.18

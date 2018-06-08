@@ -1,0 +1,12 @@
+19611c19611
+<   gl_cv_func_ftello_works=no
+---
+>   gl_cv_func_ftello_works=yes
+24625c24625
+<   gl_cv_func_ftello_works=no
+---
+>   gl_cv_func_ftello_works=yes
+32572c32572
+<   gl_cv_func_ftello_works=no
+---
+>   gl_cv_func_ftello_works=yes

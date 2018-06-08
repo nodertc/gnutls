@@ -1,0 +1,24 @@
+285c285
+< 	$(CC_FOR_BUILD) `test -f aesdata.c || echo '$(srcdir)/'`aesdata.c \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f aesdata.c || echo '$(srcdir)/'`aesdata.c \
+289c289
+< 	$(CC_FOR_BUILD) `test -f desdata.c || echo '$(srcdir)/'`desdata.c \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f desdata.c || echo '$(srcdir)/'`desdata.c \
+293c293
+< 	$(CC_FOR_BUILD) `test -f twofishdata.c || echo '$(srcdir)/'`twofishdata.c \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f twofishdata.c || echo '$(srcdir)/'`twofishdata.c \
+297c297
+< 	$(CC_FOR_BUILD) `test -f shadata.c || echo '$(srcdir)/'`shadata.c -lm \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f shadata.c || echo '$(srcdir)/'`shadata.c -lm \
+301c301
+< 	$(CC_FOR_BUILD) `test -f gcmdata.c || echo '$(srcdir)/'`gcmdata.c \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f gcmdata.c || echo '$(srcdir)/'`gcmdata.c \
+305c305
+< 	$(CC_FOR_BUILD) `test -f eccdata.c || echo '$(srcdir)/'`eccdata.c \
+---
+> 	$(CC_FOR_BUILD) $(AM_CFLAGS) $(CFLAGS) `test -f eccdata.c || echo '$(srcdir)/'`eccdata.c \
