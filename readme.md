@@ -9,4 +9,5 @@ $ source ~/emsdk/emsdk_env.sh
 $ make -j8
 ```
 
-diff originalfile updatedfile > patch.patch
+## License
+MIT
